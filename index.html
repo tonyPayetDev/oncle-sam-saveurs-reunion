@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oncle Sam - Saveurs authentiques de La Réunion à commander en ligne</title>
+  <meta name="description" content="Découvrez Oncle Sam, spécialiste des saveurs réunionnaises : samoussas, bouchons et plats typiques à commander en ligne ou à retirer en boutique.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌺</text></svg>">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <div class="logo-icon">🌺</div>
+        <div class="logo-text">Oncle <span>Sam</span></div>
+      </a>
+      
+      <nav class="nav-desktop">
+        <a href="#specialites" class="nav-link">Nos Spécialités</a>
+        <a href="#livraison" class="nav-link">Livraison</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#avis" class="nav-link">Avis</a>
+        <a href="#commander" class="nav-link nav-cta">Commander</a>
+      </nav>
+      
+      <div class="mobile-menu-btn" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu-overlay"></div>
+  <div class="mobile-menu">
+    <button class="mobile-menu-close" aria-label="Fermer">&times;</button>
+    <ul class="mobile-nav-links">
+      <li><a href="#specialites">Nos Spécialités</a></li>
+      <li><a href="#livraison">Livraison</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#avis">Avis</a></li>
+      <li><a href="#commander">Commander</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span>✨</span> Spécialiste depuis 2010
+        </div>
+        <h1>Oncle Sam - <span>Saveurs authentiques</span> de La Réunion à commander en ligne</h1>
+        <p class="hero-description">Découvrez nos délicieux samoussas, bouchons et plats typiques réunionnais, préparés avec passion et tradition. Commandez en ligne et faites-vous livrer partout à La Réunion et en France métropolitaine.</p>
+        <div class="hero-cta">
+          <a href="#specialites" class="btn btn-primary">Découvrir notre carte</a>
+          <a href="#commander" class="btn btn-outline">Commander maintenant</a>
+        </div>
+      </div>
+      
+      <div class="hero-image">
+        <div class="hero-image-main">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600'%3E%3Crect fill='%232a1510' width='800' height='600'/%3E%3Ctext x='50%25' y='50%25' font-size='120' text-anchor='middle' dy='.35em'%3E🥟🌺🍛%3C/text%3E%3C/svg%3E" alt="Spécialités réunionnaises - samoussas et bouchons" loading="lazy">
+        </div>
+        <div class="floating-card review">
+          <div class="floating-icon">⭐</div>
+          <div class="floating-text">
+            4.9/5
+            <small>500+ avis clients</small>
+          </div>
+        </div>
+        <div class="floating-card delivery">
+          <div class="floating-icon">🚚</div>
+          <div class="floating-text">
+            Livraison rapide
+            <small>24-48h partout</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specialites Section -->
+  <section id="specialites" class="section specialites">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Nos Produits</span>
+        <h2 class="section-title">Nos spécialités réunionnaises</h2>
+        <p class="section-description">Savourez nos samoussas, bouchons et bonbons piments faits maison, préparés avec soin pour vous offrir un goût authentique de La Réunion.</p>
+      </div>
+      
+      <div class="products-grid">
+        <article class="product-card reveal">
+          <div class="product-image">🥟</div>
+          <div class="product-content">
+            <h3 class="product-title">Samoussas</h3>
+            <p class="product-description">Nos samoussas croustillants sont disponibles en plusieurs saveurs : bœuf épicé, poulet curry, légumes ou fromage. Parfaits pour l'apéritif ou en plat principal.</p>
+            <span class="product-price">À partir de 8,50 €</span>
+          </div>
+        </article>
+        
+        <article class="product-card reveal">
+          <div class="product-image">🍘</div>
+          <div class="product-content">
+            <h3 class="product-title">Bouchons</h3>
+            <p class="product-description">Authentiques bouchons réunionnais à base de viande de bœuf parfumée et d'épices, enveloppés dans une pâte fine et cuits à la vapeur. Un délice traditionnel !</p>
+            <span class="product-price">À partir de 9,90 €</span>
+          </div>
+        </article>
+        
+        <article class="product-card reveal">
+          <div class="product-image">🌶️</div>
+          <div class="product-content">
+            <h3 class="product-title">Bonbons Piments</h3>
+            <p class="product-description">Ces petites bouchées épicées et croustillantes sont l'accompagnement parfait pour vos plats. Disponibles en plusieurs niveaux de piquant.</p>
+            <span class="product-price">À partir de 6,50 €</span>
+          </div>
+        </article>
+        
+        <article class="product-card reveal">
+          <div class="product-image">🍛</div>
+          <div class="product-content">
+            <h3 class="product-title">Carry Poulet</h3>
+            <p class="product-description">Notre carry poulet mijoté aux épices traditionnelles réunionnaises, accompagné de riz basmati et grains. Un plat réconfortant plein de saveurs.</p>
+            <span class="product-price">À partir de 12,90 €</span>
+          </div>
+        </article>
+        
+        <article class="product-card reveal">
+          <div class="product-image">🥘</div>
+          <div class="product-content">
+            <h3 class="product-title">Rougail Saucisse</h3>
+            <p class="product-description">Le plat emblématique de La Réunion ! Des saucisses mijotées dans une sauce tomate épicée avec oignons et épices. Livré avec riz et grains.</p>
+            <span class="product-price">À partir de 13,50 €</span>
+          </div>
+        </article>
+        
+        <article class="product-card reveal">
+          <div class="product-image">🥠</div>
+          <div class="product-content">
+            <h3 class="product-title">Box Découverte</h3>
+            <p class="product-description">Une sélection de nos meilleures spécialités pour découvrir les saveurs de La Réunion. Idéale pour les grandes occasions ou pour faire plaisir.</p>
+            <span class="product-price">À partir de 29,90 €</span>
+          </div>
+        </article>
+      </div>
+      
+      <div style="text-align: center; margin-top: 50px;">
+        <a href="#commander" class="btn btn-primary">Découvrez notre carte et commandez dès maintenant</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Livraison Section -->
+  <section id="livraison" class="section delivery-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Livraison</span>
+        <h2 class="section-title">Livraison et retrait</h2>
+        <p class="section-description">Profitez de notre service de livraison à La Réunion et en France métropolitaine ou optez pour le retrait en boutique à Saint-Denis.</p>
+      </div>
+      
+      <div class="delivery-grid">
+        <div class="delivery-card reveal">
+          <div class="delivery-icon">🏝️</div>
+          <h3 class="delivery-title">Livraison à La Réunion</h3>
+          <p class="delivery-text">Livraison rapide sur toute l'île de La Réunion en 24 à 48h. Saint-Denis, Saint-Paul, Saint-Pierre et partout ailleurs !</p>
+        </div>
+        
+        <div class="delivery-card reveal">
+          <div class="delivery-icon">✈️</div>
+          <h3 class="delivery-title">Envoi France Métropolitaine</h3>
+          <p class="delivery-text">Nos produits voyagent en avion pour vous parvenir frais en 48-72h dans toute la France métropolitaine.</p>
+        </div>
+        
+        <div class="delivery-card reveal">
+          <div class="delivery-icon">🏪</div>
+          <h3 class="delivery-title">Retrait en Boutique</h3>
+          <p class="delivery-text">Retirez votre commande à notre boutique de Saint-Denis du lundi au samedi, de 9h à 19h.</p>
+        </div>
+      </div>
+      
+      <div style="text-align: center; margin-top: 50px;">
+        <a href="#commander" class="btn btn-primary">Choisissez votre mode de livraison</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="section faq-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">FAQ</span>
+        <h2 class="section-title">Questions fréquentes</h2>
+        <p class="section-description">Retrouvez toutes les réponses à vos questions concernant la commande, la livraison, le transport en avion et la conservation de nos produits.</p>
+      </div>
+      
+      <div class="faq-list">
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Comment passer commande sur Oncle Sam ?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Vous pouvez passer commande directement sur notre site en quelques clics : sélectionnez vos produits, ajoutez-les au panier, choisissez votre mode de livraison ou de retrait, et procédez au paiement sécurisé. Vous recevrez une confirmation par email.
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Quels sont les délais de livraison ?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              À La Réunion : livraison en 24 à 48h ouvrées. En France métropolitaine : 48 à 72h par transport aérien. Pour le retrait en boutique : disponible le jour même si commande passée avant 14h, ou le lendemain.
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Les produits voyagent-ils bien en avion ?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Oui ! Nos produits sont spécialement emballés pour le transport aérien : emballage isotherme, glace sèche et protection optimale. Les samoussas et bouchons supportent parfaitement le voyage et arrivent chez vous en excellente condition.
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Quelle est la durée de conservation des produits ?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Nos produits frais se conservent 3 à 5 jours au réfrigérateur. Vous pouvez également les congeler pour une conservation jusqu'à 3 mois. Chaque produit est livré avec ses indications de conservation spécifiques.
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Proposez-vous des options végétariennes ou sans gluten ?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Oui ! Nous proposons des samoussas végétariens (aux légumes ou fromage) et certaines de nos préparations peuvent être adaptées. Contactez-nous pour connaître les options disponibles et vos besoins spécifiques.
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Puis-je commander pour une grande quantité ou un événement ?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Absolument ! Nous réalisons des commandes sur mesure pour vos événements : mariages, anniversaires, séminaires... Contactez-nous au moins 7 jours à l'avance pour discuter de vos besoins et obtenir un devis personnalisé.
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div style="text-align: center; margin-top: 50px;">
+        <a href="#contact" class="btn btn-outline">Consultez notre FAQ</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Avis Section -->
+  <section id="avis" class="section reviews-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Témoignages</span>
+        <h2 class="section-title">Avis clients</h2>
+        <p class="section-description">Découvrez les témoignages de nos clients satisfaits qui apprécient la qualité et le goût de nos produits réunionnais.</p>
+      </div>
+      
+      <div class="reviews-grid">
+        <article class="review-card reveal">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Les meilleurs samoussas que j'ai mangés hors de La Réunion ! Le goût est exactement comme à la maison. La livraison en France métropolitaine est super rapide et les produits arrivent bien frais. Je recommande vivement !"</p>
+          <div class="review-author">
+            <div class="review-avatar">ML</div>
+            <div>
+              <div class="review-name">Marie L.</div>
+              <div class="review-location">Paris, France</div>
+            </div>
+          </div>
+        </article>
+        
+        <article class="review-card reveal">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"J'ai commandé pour un anniversaire familial et tout le monde a adoré ! Les bouchons sont authentiques et le rougail saucisse est divin. Le service client est très réactif et sympathique. Merci Oncle Sam !"</p>
+          <div class="review-author">
+            <div class="review-avatar">JP</div>
+            <div>
+              <div class="review-name">Jean-Pierre D.</div>
+              <div class="review-location">Saint-Denis, La Réunion</div>
+            </div>
+          </div>
+        </article>
+        
+        <article class="review-card reveal">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Je suis réunionnais expatrié et Oncle Sam me permet de retrouver les saveurs de mon enfance. La box découverte est parfaite pour faire découvrir la cuisine réunionnaise à mes amis français. Une vraie réussite !"</p>
+          <div class="review-author">
+            <div class="review-avatar">SR</div>
+            <div>
+              <div class="review-name">Stéphane R.</div>
+              <div class="review-location">Lyon, France</div>
+            </div>
+          </div>
+        </article>
+      </div>
+      
+      <div style="text-align: center; margin-top: 50px;">
+        <a href="#avis" class="btn btn-primary">Lire les avis</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section id="commander" class="cta-section">
+    <div class="container reveal">
+      <h2 class="cta-title">Envie de découvrir nos saveurs ?</h2>
+      <p class="cta-text">Commandez dès maintenant et laissez-vous transporter par les saveurs authentiques de La Réunion</p>
+      <a href="#" class="btn cta-btn" onclick="alert('Boutique en cours de configuration. Contactez-nous par téléphone au 0262 XX XX XX !')">Commander maintenant</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <div class="logo-icon">🌺</div>
+            <div class="logo-text">Oncle <span>Sam</span></div>
+          </a>
+          <p>Spécialiste des saveurs réunionnaises depuis 2010. Nous mettons tout notre savoir-faire à votre service pour vous faire découvrir l'authenticité de la cuisine de La Réunion.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook">f</a>
+            <a href="#" class="social-link" aria-label="Instagram">📷</a>
+            <a href="#" class="social-link" aria-label="WhatsApp">📱</a>
+          </div>
+        </div>
+        
+        <div class="footer-nav">
+          <h4 class="footer-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#specialites">Nos Spécialités</a></li>
+            <li><a href="#livraison">Livraison</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#avis">Avis clients</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-nav">
+          <h4 class="footer-title">Informations</h4>
+          <ul class="footer-links">
+            <li><a href="#">Mentions légales</a></li>
+            <li><a href="#">CGV</a></li>
+            <li><a href="#">Politique de confidentialité</a></li>
+            <li><a href="#">Recrutement</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h4 class="footer-title">Contact</h4>
+          <p>📍 12 Rue des Bons Enfants, Saint-Denis 97400</p>
+          <p>📞 0262 XX XX XX</p>
+          <p>✉️ contact@onclesam.re</p>
+          <p>🕐 Lun-Sam : 9h-19h</p>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2024 Oncle Sam. Tous droits réservés. Saveurs authentiques de La Réunion.</p>
+        <div class="footer-payments">
+          <span>Paiement sécurisé :</span>
+          <span>💳 CB</span>
+          <span>🍎 Apple Pay</span>
+          <span>📱 Google Pay</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
